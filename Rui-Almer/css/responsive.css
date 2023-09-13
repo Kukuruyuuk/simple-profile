@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+    .sec1 .img {
+        height: 25rem;
+        width: 25rem;
+    }
+
+    .sec3 .medsos {
+        width: 90%;
+    }
+
+    .sec3 .medsos .kotak {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+
+    .sec3 .medsos .kotak .icon1, .sec3 .medsos .kotak .icon2, .sec3 .medsos .kotak .icon3, .sec3 .medsos .kotak .icon4 {
+        width: 13rem;
+        height: 13rem;
+        margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    }
+}

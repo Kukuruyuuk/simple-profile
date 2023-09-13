@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --prim: #526D82;
+    --sec: #9DB2BF;
+    --tre: #DDE6ED;
+    --cuat: #455b6b;
+}
+
+.sec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1 .bg {
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/bg1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-flow: column;
+    color: rgb(255, 255, 255);
+}
+
+.sec1 .img {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    background-image: url(../img/ruialmer.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3rem 0 3rem 0;
+    box-shadow: 3px 3px 10px 10px black;
+}
+
+.sec1 .bg a {
+    color: white;
+    text-decoration: none;
+    font-size: 3rem;
+    font-family: 'Kanit';
+}
+
+.sec1 .bg h5 {
+    font-family: 'Poppins';
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.sec2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60rem;
+    background-color: var(--prim);
+}
+
+.sec2 .atk {
+    text-align: center;
+    width: 70%;
+}
+
+.sec2 .atk h1 {
+    font-family: 'Kanit';
+    color: white;
+    font-size: 5rem;
+}
+
+.sec2 .atk p {
+    font-size: 1.5rem;
+    font-family: 'Rubik';
+    color: white;
+}
+
+.sec3 {
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--prim);
+    color: white;
+    background-color: var(--cuat);
+    font-family: 'Poppins';
+}
+
+.sec3 .medsos {
+    text-align: center;
+    width: 50%;
+}
+
+.sec3 .medsos h1 {
+    font-size: 3rem;
+}
+
+.sec3 .medsos .kotak {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+}
+.sec3 .medsos .kotak .icon1, .sec3 .medsos .kotak .icon2, .sec3 .medsos .kotak .icon3, .sec3 .medsos .kotak .icon4 {
+    background-color: var(--prim);
+    height: 15rem;
+    width: 15rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.sec3 .medsos .kotak .icon1 a, .sec3 .medsos .kotak .icon2 a, .sec3 .medsos .kotak .icon3 a, .sec3 .medsos .kotak .icon4 a {
+    text-decoration: none;
+    color: white;
+}
+
+.sec3 .medsos .kotak .icon1 {
+    background-image: url(../img/ig_logo.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+.sec3 .medsos .kotak .icon2 {
+    background-image: url(../img/link.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+
+.sec3 .medsos .kotak .icon3 {
+    background-image: url(../img/fb.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+.sec3 .medsos .kotak .icon4 {
+    background-image: url(../img/git.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
